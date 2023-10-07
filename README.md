@@ -1,5 +1,5 @@
 ## Qwik-Content-Loader
-### Ported from [React-Content-Loader](https://github.dev/danilowoz/react-content-loader)
+### Ported from [React-Content-Loader](https://github.com/danilowoz/react-content-loader)
 <p align="center">
   <img width="400" alt="Example's react-content-loader" src="https://user-images.githubusercontent.com/4838076/34308760-ec55df82-e735-11e7-843b-2e311fa7b7d0.gif" />
 </p>
@@ -26,11 +26,11 @@ SVG-Powered component to easily create placeholder loadings (like Facebook's car
 ## Getting Started
 
 ```sh
-npm i qwik-content-loader --save
+pnpm i qwik-content-loader
 ```
 
 ```sh
-pnpm i qwik-content-loader
+npm i qwik-content-loader --save
 ```
 
 ```sh
