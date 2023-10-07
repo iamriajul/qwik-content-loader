@@ -2,13 +2,13 @@ import uid from "../shared/uid";
 import {component$, Slot} from "@builder.io/qwik";
 import {IContentLoaderProps} from "../index";
 
-/// ContentLoaderSvg requires a Slot to be passed in as a child.
+/// ContentLoader requires a Slot to be passed in as a child.
 /// valid child examples:
 /// <rect x="0" y="0" rx="5" ry="5" width="70" height="70" />
 /// <circle cx="30" cy="30" r="30" />
 /// <rect x="80" y="17" rx="4" ry="4" width="300" height="13" />
 /// etc.
-export const ContentLoaderSvg = component$<IContentLoaderProps>(({
+export const ContentLoader = component$<IContentLoaderProps>(({
                                                       animate = true,
                                                       animateBegin,
                                                       backgroundColor = '#f5f6f7',
@@ -56,7 +56,7 @@ export const ContentLoaderSvg = component$<IContentLoaderProps>(({
         y="0"
         width="100%"
         height="100%"
-        clipPath={`url(${baseUrl}#${idClip})`}
+        clip-path={`url(${baseUrl}#${idClip})`}
         style={{ fill: `url(${baseUrl}#${idGradient})` }}
       />
 
@@ -68,8 +68,8 @@ export const ContentLoaderSvg = component$<IContentLoaderProps>(({
         <linearGradient id={idGradient} gradientTransform={gradientTransform}>
           <stop
             offset="0%"
-            stopColor={backgroundColor}
-            stopOpacity={backgroundOpacity}
+            stop-color={backgroundColor}
+            stop-opacity={backgroundOpacity}
           >
             {animate && (
               <animate
@@ -85,8 +85,8 @@ export const ContentLoaderSvg = component$<IContentLoaderProps>(({
 
           <stop
             offset="50%"
-            stopColor={foregroundColor}
-            stopOpacity={foregroundOpacity}
+            stop-color={foregroundColor}
+            stop-opacity={foregroundOpacity}
           >
             {animate && (
               <animate
@@ -103,8 +103,8 @@ export const ContentLoaderSvg = component$<IContentLoaderProps>(({
 
           <stop
             offset="100%"
-            stopColor={backgroundColor}
-            stopOpacity={backgroundOpacity}
+            stop-color={backgroundColor}
+            stop-opacity={backgroundOpacity}
           >
             {animate && (
               <animate

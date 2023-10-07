@@ -19,7 +19,7 @@ export interface IContentLoaderProps extends SVGAttributes<SVGElement> {
   beforeMask?: JSX.Element
 }
 
-export { ContentLoaderSvg } from "./components/ContentLoaderSvg";
+export { ContentLoader } from "./components/ContentLoader";
 export { ContentLoaderFacebook } from "./components/presets/ContentLoaderFacebook";
 export { ContentLoaderInstagram } from "./components/presets/ContentLoaderInstagram";
 export { ContentLoaderCode } from "./components/presets/ContentLoaderCode";
