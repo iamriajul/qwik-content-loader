@@ -1,7 +1,27 @@
 {
   "name": "qwik-content-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SVG-Powered component to easily create placeholder loadings (like Facebook cards loading)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamriajul/qwik-content-loader"
+  },
+  "author": "Riajul Islam <kmriajulislami@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamriajul/qwik-content-loader/issues"
+  },
+  "homepage": "https://github.com/iamriajul/qwik-content-loader",
+  "keywords": [
+    "qwik",
+    "skeleton",
+    "placeholder",
+    "loader",
+    "loading",
+    "content",
+    "svg",
+    "shimmer"
+  ],
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
