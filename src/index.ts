@@ -1,7 +1,8 @@
-import {h, SVGAttributes} from "@builder.io/qwik";
+import {h, PropsOf} from "@builder.io/qwik";
 import JSX = h.JSX;
 
-export interface IContentLoaderProps extends SVGAttributes<SVGElement> {
+type SvgProps = PropsOf<'svg'>;
+export interface IContentLoaderProps extends SvgProps {
   animate?: boolean
   animateBegin?: string
   backgroundColor?: string
