@@ -1,5 +1,4 @@
-import {h, PropsOf} from "@builder.io/qwik";
-import JSX = h.JSX;
+import type {JSXOutput, PropsOf} from "@builder.io/qwik";
 
 type SvgProps = PropsOf<'svg'>;
 export interface IContentLoaderProps extends SvgProps {
@@ -17,7 +16,7 @@ export interface IContentLoaderProps extends SvgProps {
   speed?: number
   title?: string
   uniqueKey?: string
-  beforeMask?: JSX.Element
+  beforeMask?: JSXOutput
 }
 
 export { ContentLoader } from "./components/ContentLoader";

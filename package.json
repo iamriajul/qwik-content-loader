@@ -1,6 +1,6 @@
 {
   "name": "qwik-content-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SVG-Powered component to easily create placeholder loadings (like Facebook cards loading)",
   "repository": {
     "type": "git",
@@ -57,19 +57,19 @@
     "commit": "git-cz"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.3.2",
-    "@types/eslint": "^8.56.1",
-    "@types/node": "^20.10.6",
-    "@typescript-eslint/eslint-plugin": "^6.17.0",
-    "@typescript-eslint/parser": "^6.17.0",
+    "@builder.io/qwik": "^1.4.0",
+    "@types/eslint": "^8.56.2",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
     "eslint": "^8.56.0",
     "eslint-plugin-qwik": "latest",
     "git-cz": "^4.9.0",
     "np": "^7.7.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.4",
     "typescript": "^5.3.3",
     "undici": "^5.28.2",
     "vite": "^5.0.11",
-    "vite-tsconfig-paths": "^4.2.3"
+    "vite-tsconfig-paths": "^4.3.1"
   }
 }
